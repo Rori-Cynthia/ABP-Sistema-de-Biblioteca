@@ -20,6 +20,17 @@ class Libro:
     def marcar_disponible(self):
         self.__disponible = True
 
+
+class Usuario:
+    def __init__(self, rut, nombre, prestamos):
+        self.__rut = rut
+        self.__nombre = nombre
+        self.__prestamos = []
+
+    def get_id(self):
+        return self.__id
+    
+
 class Prestamo:
     def __init__(self):
         self.prestamos = []
@@ -49,13 +60,3 @@ class Prestamo:
     libro3 = Libro(3, "El señor de los anillos", "JRR Tolkien")
     libro4 = Libro(4, "El resplandor", "Stephen King")
     libro5 = Libro(5, "Harry Potter y la piedra filosofal", "J.K. Rowling")
-
-
-class Usuario:
-    def __init__(self, rut, nombre, prestamos):
-        self.__rut = rut
-        self.__nombre = nombre
-        self.__prestamos = []
-
-    def get_id(self):
-        return self.__id
