@@ -50,5 +50,9 @@ class Prestamo:
     libro4 = Libro(4, "El resplandor", "Stephen King")
     libro5 = Libro(5, "Harry Potter y la piedra filosofal", "J.K. Rowling")
 
-    
 
+class Usuario:
+    def __init__(self, rut, nombre, prestamos):
+        self.__rut = rut
+        self.__nombre = nombre
+        self.__prestamos = []
