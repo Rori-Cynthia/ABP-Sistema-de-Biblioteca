@@ -56,3 +56,6 @@ class Usuario:
         self.__rut = rut
         self.__nombre = nombre
         self.__prestamos = []
+
+    def get_id(self):
+        return self.__id
