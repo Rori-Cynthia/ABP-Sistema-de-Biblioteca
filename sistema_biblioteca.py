@@ -55,8 +55,8 @@ class Prestamo:
         else:
             print("El libro no se encuentra prestado")
 
-    libro1 = Libro(1, "El principito", "Antonio Machado")
-    libro2 = Libro(2, "Cien años de soledad", "Gabriel Garcia Marquez")
-    libro3 = Libro(3, "El señor de los anillos", "JRR Tolkien")
-    libro4 = Libro(4, "El resplandor", "Stephen King")
-    libro5 = Libro(5, "Harry Potter y la piedra filosofal", "J.K. Rowling")
+libro1 = Libro(1, "El principito", "Antonio Machado")
+libro2 = Libro(2, "Cien años de soledad", "Gabriel Garcia Marquez")
+libro3 = Libro(3, "El señor de los anillos", "JRR Tolkien")
+libro4 = Libro(4, "El resplandor", "Stephen King")
+libro5 = Libro(5, "Harry Potter y la piedra filosofal", "J.K. Rowling")
